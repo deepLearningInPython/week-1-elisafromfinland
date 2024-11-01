@@ -36,7 +36,7 @@ step(5)
 
 # Your code here:
 # -----------------------------------------------
-def ReLU(ar, cutoff=0):
+def ReLu(ar, cutoff=0):
     return numpy.maximum(ar, cutoff)
 
 
@@ -59,7 +59,7 @@ ReLU(ari)
 
 def neural_net_layer(n, p):
     C = n @ p
-    multi = ReLU(C)
+    multi = ReLu(C)
     return multi
 
 # ------------------------------------------
